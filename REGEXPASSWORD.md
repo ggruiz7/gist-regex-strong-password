@@ -14,11 +14,11 @@ var passwordRegex = /(?=^.{6,}$)((?=.*\w)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[
 
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
+- [Flags](#flags`g`)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Anchors](#anchors)
-- [Author](#author)
 - [Lookaround](#lookaround)
+- [Author](#author)
 
 ## Regex Components
 
