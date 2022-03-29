@@ -7,7 +7,7 @@ Regex or Regular expressions are patterns used to match character combinations i
 We'll be looking at how the following Regex is used to match a strong password:
 
 ```js
-var emailRegex = /(?=^.{6,}$)((?=.*\w)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[|!"$%&\/\(\)\?\^\'\\\+\-\*]))^.*/g;
+var passwordRegex = /(?=^.{6,}$)((?=.*\w)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[|!"$%&\/\(\)\?\^\'\\\+\-\*]))^.*/g;
 ```
 
 ## Table of Contents
@@ -18,6 +18,7 @@ var emailRegex = /(?=^.{6,}$)((?=.*\w)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[|!"
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Anchors](#anchors)
 - [Author](#author)
+- [Lookaround](#lookaround)
 
 ## Regex Components
 
@@ -84,4 +85,4 @@ e.g.
 
 ### Author
 
-[gg](https://github.com/ggruiz7)
+[gg](https://github.com/ggruiz7) - A work in progress.
